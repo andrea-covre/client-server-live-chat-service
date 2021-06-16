@@ -14,9 +14,9 @@
 ## DEMO
 
 ![Server DEMO by Andrea Covre](/figures/server.gif "Server DEMO")
-<img src="/figures/client-1.gif" alt="Client 1 DEMO by Andrea Covre" width="240"/>
-<img src="/figures/client-2.gif" alt="Client 2 DEMO by Andrea Covre" width="240"/>
-<img src="/figures/client-3.gif" alt="Client 3 DEMO by Andrea Covre" width="240"/>
+<img src="/figures/client-1.gif" alt="Client 1 DEMO by Andrea Covre" width="250"/>
+<img src="/figures/client-2.gif" alt="Client 2 DEMO by Andrea Covre" width="250"/>
+<img src="/figures/client-3.gif" alt="Client 3 DEMO by Andrea Covre" width="250"/>
 
 <!--
 ![Client 1 DEMO by Andrea Covre](/figures/client-1.gif "Client 1")

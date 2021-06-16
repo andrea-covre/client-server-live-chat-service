@@ -37,11 +37,9 @@
 ## FILES INCLUDED
 
 - `chatclient.h`
-<br>
     header file for the chat client (C)
 
 - `chatclient.c`
-<br>
     source file for the chat client (C)
 
 - `chatserver.h`

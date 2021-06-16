@@ -52,7 +52,7 @@
     file to compile the executable server and client files
 
 - `README.md`
-    documentation with description, images and instruction
+    documentation with description, images and instructions
 
 
 ## COMPILING INSTRUCTIONS
@@ -95,7 +95,7 @@
 
 ## OUTPUTS
 
-- serveroutput.txt
+- `serveroutput.txt`
     complete log of the chat from the server view with
     logins/logouts and messages received (shortcuts
     will be displayed as received by the client, therefore
@@ -112,10 +112,8 @@
 - Edited with: CLion 2020.2.4
 - Written on: MacOS 11.2.1
 - Tested on:
-<br>
-                  - MacOS 11.2.1
-<br>
-                  - Ubuntu 18.04
+<br> - MacOS 11.2.1
+<br> - Ubuntu 18.04
 
 
 ## LIBRARIES USED

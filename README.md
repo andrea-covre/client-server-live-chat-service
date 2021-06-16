@@ -14,9 +14,15 @@
 ## DEMO
 
 ![Server DEMO by Andrea Covre](/figures/server.gif "Server DEMO")
+<img src="/figures/client-1.gif" alt="Client 1 DEMO by Andrea Covre" width="300"/>
+<img src="/figures/client-2.gif" alt="Client 2 DEMO by Andrea Covre" width="300"/>
+<img src="/figures/client-3.gif" alt="Client 3 DEMO by Andrea Covre" width="300"/>
+
+<!--
 ![Client 1 DEMO by Andrea Covre](/figures/client-1.gif "Client 1")
 ![Client 2 DEMO by Andrea Covre](/figures/client-2.gif "Client 2")
 ![Client 3 DEMO by Andrea Covre](/figures/client-3.gif "Client 3")
+-->
 
 ## FILES INCLUDED
 

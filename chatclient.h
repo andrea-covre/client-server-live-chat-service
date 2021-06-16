@@ -22,7 +22,7 @@ struct sockaddr_in server;
 char username[20];
 char password[20];
 char auth_token[41];
-char server_password[] = "cs3251secret";
+char server_password[] = "secret-password";
 
 int message_limit = 1024+1;
 

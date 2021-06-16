@@ -68,7 +68,7 @@ int main(int argc , char *argv[]) {
     }
 
     status = 1;
-    printMagenta("~~~ You have entered CS3251 Chat Room ~~~\n");
+    printMagenta("~~~ You have entered The Chat Room ~~~\n");
 
     pthread_t receiving_thread;
     int new_socket = socket_desc;

@@ -2,41 +2,50 @@
 
 ## =========================== OVERVIEW ===========================
 
-> Title: Programming Assignment #1
-> Author: Andrea Covre
-> GT Username: acovre3
-> Email: andrea.covre@icloud.com
-> GT Email: andrea.covre@gatech.edu
-> Date: March 10th, 2021
-> Class: CS 3251
-> Section: B
+**Title:** Client-Server Live Chat Service
+<br>
+**Author:** Andrea Covre
+<br>
+**Email:** andrea.covre@icloud.com
+<br>
+**Date:** March 10th, 2021
+<br>
 
+## DEMO
 
-## ======================== FILES INCLUDED ========================
+![Server DEMO by Andrea Covre](/figures/server.gif "Server DEMO")
+![Client 1 DEMO by Andrea Covre](/figures/client-1.gif "Client 1")
+![Client 2 DEMO by Andrea Covre](/figures/client-2.gif "Client 2")
+![Client 3 DEMO by Andrea Covre](/figures/client-3.gif "Client 3")
 
-- chatclient.h
+## FILES INCLUDED
+
+- `chatclient.h`
+<br>
     header file for the chat client (C)
 
-- chatclient.c
+- `chatclient.c`
+<br>
     source file for the chat client (C)
 
-- chatserver.h
+- `chatserver.h`
+<br>
     header file for the chat server (C)
 
-- chatserver.c
+- `chatserver.c`
+<br>
     source file for the chat server (C)
 
-- Makefile
+- `Makefile`
+<br>
     file to compile the executable server and client files
 
-- README.txt
-    documentation with description and instruction
-
-- README.md
+- `README.md`
+<br>
     documentation with description, images and instruction
 
 
-## ==================== COMPILING INSTRUCTIONS ====================
+## COMPILING INSTRUCTIONS
 
 * To build the executables for both chatclient and chatserver
   run the following command from the terminal inside the project
@@ -51,23 +60,38 @@
     ```
 
 
-## ===================== RUNNING INSTRUCTIONS =====================
+## RUNNING INSTRUCTIONS
 
 * First run the chatserver executable with the following
   usage:
   ```
     $ ./chatserver [port_number]
+  ```
+  e.g.
+  ```
     $ ./chatserver 5001
   ```
+
+<br>
 
 * To run a client executable use:
   ```
     $ ./chatclient [port_number] [username] [password]
-    $ ./chatclient 5001 andy cs3251secret
+  ```
+  e.g.
+  ```
+    $ ./chatclient 5001 andy secret-password
   ```
 
+## SHORTCUT CODES
 
-## =========================== OUTPUTS ============================
+- `:)` → [feeling happy]
+- `:(` → [feeling sad]
+- `:mytime` → current time
+- `:+1hr` → current time plus one hour
+- `:Exit` → exit the chat
+
+## OUTPUTS
 
 - serveroutput.txt
     complete log of the chat from the server view with
@@ -76,21 +100,23 @@
     not yet transformed);
 
 
-## ======================== SPECIFICATIONS ========================
+## SPECIFICATIONS
 
-> C Standard: C99
-> Compiler: GCC
-> IP address: 127.0.0.1 (hardcoded)
-> Password: cs3251secret (hardcoded)
-> Max length of message inputtable by the client: 1024 characters
-> Edited with: CLion 2020.2.4
-> Written on: MacOS 11.2.1
-> Tested on:
-            - MacOS 11.2.1
-            - Ubuntu 18.04
+- C Standard: C99
+- Compiler: GCC
+- IP address: 127.0.0.1 (hardcoded)
+- Password: secret-password (hardcoded)
+- Max length of message inputtable by the client: 1024 characters
+- Edited with: CLion 2020.2.4
+- Written on: MacOS 11.2.1
+- Tested on:
+<br>
+                  - MacOS 11.2.1
+<br>
+                  - Ubuntu 18.04
 
 
-## ======================== LIBRARIES USED ========================
+## LIBRARIES USED
 
 + arpa/inet
 + ctype         (C Standard Library)

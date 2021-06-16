@@ -44,8 +44,8 @@ int main(int argc , char *argv[]) {
     fp  = fopen (output_file_name, "w");
     signal(SIGINT, INThandler);
 
-    printMagenta("~~~ You have entered CS3251 Chat Room ~~~\n");
-    fputs("~~~ You have entered CS3251 Chat Room ~~~\n", fp);
+    printMagenta("~~~ You have entered The Chat Room ~~~\n");
+    fputs("~~~ You have entered The Chat Room ~~~\n", fp);
 
     //Listen
     listen(socket_desc , 5);

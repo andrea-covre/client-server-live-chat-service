@@ -43,19 +43,15 @@
     source file for the chat client (C)
 
 - `chatserver.h`
-<br>
     header file for the chat server (C)
 
 - `chatserver.c`
-<br>
     source file for the chat server (C)
 
 - `Makefile`
-<br>
     file to compile the executable server and client files
 
 - `README.md`
-<br>
     documentation with description, images and instruction
 
 

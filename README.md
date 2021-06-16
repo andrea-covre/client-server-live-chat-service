@@ -1,6 +1,6 @@
 # Client-Server Live Chat Service
 
-## =========================== OVERVIEW ===========================
+## OVERVIEW
 
 **Title:** Client-Server Live Chat Service
 <br>
@@ -23,6 +23,16 @@
 ![Client 2 DEMO by Andrea Covre](/figures/client-2.gif "Client 2")
 ![Client 3 DEMO by Andrea Covre](/figures/client-3.gif "Client 3")
 -->
+
+## SHORTCUTS CODES
+
+- `:)` → [feeling happy]
+- `:(` → [feeling sad]
+- `:mytime` → current time
+- `:+1hr` → current time plus one hour
+- `:Exit` → exit the chat
+
+![Shortcuts codes DEMO by Andrea Covre](/figures/shortcuts-demo.gif "Shortcuts codes DEMO")
 
 ## FILES INCLUDED
 
@@ -88,14 +98,6 @@
   ```
     $ ./chatclient 5001 andy secret-password
   ```
-
-## SHORTCUT CODES
-
-- `:)` → [feeling happy]
-- `:(` → [feeling sad]
-- `:mytime` → current time
-- `:+1hr` → current time plus one hour
-- `:Exit` → exit the chat
 
 ## OUTPUTS
 

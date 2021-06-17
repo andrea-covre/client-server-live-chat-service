@@ -11,6 +11,8 @@
 **Date:** March 10th, 2021
 <br>
 
+This service was realized as socket programming and networking exercise.
+
 ## DEMO
 
 ![Server DEMO by Andrea Covre](/figures/server.gif "Server DEMO")
